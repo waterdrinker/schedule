@@ -3,7 +3,7 @@ schedule
 
 工作计划
 
-### 增加命令行接口
+## 增加命令行接口
 
 如 maria -p 22 --host 0.0.0.0 --host-key=./examples/host.key
 
@@ -18,5 +18,5 @@ schedule
 >    pass
 
 然后可以在python中
->>> from tasks import run
->>> run()
+`>>> from tasks import run`
+``>>> run()``
