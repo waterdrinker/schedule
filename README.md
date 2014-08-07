@@ -18,5 +18,11 @@ schedule
         pass  
 
 然后可以在python中调用  
-    &lt;&lt;&lt; from tasks import run  
-    &lt;&lt;&lt; run()  
+    from tasks import run  
+    run()  
+
+或者像``gunicorn -b 0.0.0.0:2200 task:application``  
+-b 绑定地址  
+task 是任务程序  
+application  是接口  
+
