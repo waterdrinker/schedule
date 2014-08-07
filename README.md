@@ -1,5 +1,5 @@
 schedule
-========
+=============
 
 工作计划
 
@@ -12,11 +12,11 @@ schedule
 比如 ``$celery -A tasks worker``  
 -A 指定任务程序tasks.py.  
 
->app = Celery()
->@app.run
->def run()
->    pass
+>app = Celery()  
+>@app.run  
+>def run()  
+>    pass  
 
 然后可以在python中  
-``>>> from tasks import run
->>> run()``
+``&lt;&lt;&lt; from tasks import run
+&lt;&lt;&lt; run()``
