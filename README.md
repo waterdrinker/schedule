@@ -9,14 +9,14 @@ schedule
 
 ### 提供类似celery的命行令执行方式
 
-比如 ``$celery -A tasks worker``.
--A 指定任务程序tasks.py
+比如 ``$celery -A tasks worker``  
+-A 指定任务程序tasks.py.  
 
 >app = Celery()
 >@app.run
 >def run()
 >    pass
 
-然后可以在python中
-`>>> from tasks import run`
-``>>> run()``
+然后可以在python中  
+``>>> from tasks import run
+>>> run()``
