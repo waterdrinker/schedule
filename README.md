@@ -5,7 +5,7 @@ schedule
 
 ## 增加命令行接口
 
-如 `maria -p 22 --host 0.0.0.0 --host-key=./examples/host.key`
+让程序先跑起来，如 `maria -p 22 --host 0.0.0.0 --host-key=./examples/host.key`
 
 ## 提供类似celery的命行令执行方式
 
@@ -17,6 +17,6 @@ schedule
     def run()  
         pass  
 
-然后可以在python中  
-    >>> from tasks import run
-    >>> run()
+然后可以在python中调用  
+    &lt;&lt;&lt; from tasks import run  
+    &lt;&lt;&lt; run()  
